@@ -1,0 +1,22 @@
+{
+  "name": "js-colourfull",
+  "version": "1.0.0",
+  "description": "Write with coloured famous pattern with Chalk",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romuleald/js-colourfull.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romuleald/js-colourfull/issues"
+  },
+  "homepage": "https://github.com/romuleald/js-colourfull#readme",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
