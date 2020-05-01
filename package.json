@@ -1,7 +1,7 @@
 {
   "name": "js-colourfull",
-  "version": "1.0.0",
-  "description": "Write with coloured famous pattern with Chalk",
+  "version": "1.1.0",
+  "description": "Write in your terminal with coloured console famous pattern",
   "main": "main.js",
   "scripts": {
     "test": "node test.js"
@@ -10,7 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/romuleald/js-colourfull.git"
   },
-  "author": "",
+  "files": ["main.js"],
+  "author": "Antoine Sanchez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/romuleald/js-colourfull/issues"
@@ -18,5 +19,16 @@
   "homepage": "https://github.com/romuleald/js-colourfull#readme",
   "dependencies": {
     "chalk": "^4.0.0"
-  }
+  },
+  "keywords": [
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "fancy",
+    "console",
+    "shell",
+    "command-line",
+    "chalk"
+  ]
 }
