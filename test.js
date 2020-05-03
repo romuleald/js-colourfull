@@ -1,18 +1,20 @@
 const test = require('./main');
+const word = process.argv[2] || 'Hello';
+const word2 = process.argv[3] || 'World';
 
 console.info(test.js);
-console.info(test.jsPattern('Hello'));
+console.info(test.jsPattern(word));
 console.info(test.babel);
-console.info(test.babelPattern('Hello'));
+console.info(test.babelPattern(word));
 console.info(test.webpack);
-console.info(test.webpackPattern('Hello'));
+console.info(test.webpackPattern(word));
 console.info(test.node);
-console.info(test.nodePattern('Hello'));
+console.info(test.nodePattern(word));
 console.info(test.npm);
-console.info(test.npmPattern('Hello'));
+console.info(test.npmPattern(word));
 console.info(test.typeScript);
-console.info(test.typeScriptPattern('Hel', 'lo'));
+console.info(test.typeScriptPattern(word, word2));
 console.info(test.less);
-console.info(test.lessPattern('Hello'));
+console.info(test.lessPattern(word));
 console.info(test.sass);
-console.info(test.sassPattern('Hello'));
+console.info(test.sassPattern(word));
